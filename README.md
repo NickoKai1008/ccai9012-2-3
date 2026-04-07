@@ -1,2 +1,106 @@
-# ccai9012-2-3
-CCAI9012 course material
+![banner](docs/figs/brand_identity/banner.png)
+
+# CCAI9012 Course Material and Toolkits
+
+Artificial Intelligence is rapidly reshaping how we think, create, and solve problems across disciplines. From automation to creative expression, AI is transforming not only industries but also the way we engage with the world around us. This course explores AI as a tool for critical inquiry, design thinking, and communication—especially in the context of urban life and the built environment.
+
+In this repository, you'll find a comprehensive set of resources, including weekly course materials and project starter kits, designed to help you harness the power of AI in your work.
+
+## Repository Structure
+
+```
+├── weekly_scripts/        # Weekly course code
+│   ├── week2/            # Python basics + LLM basics + Feature visualization
+│   ├── week3/            # Data basics + Python (part 2)
+│   ├── week4/            # Multimodal LLM
+│   ├── week5/            # ML fundamentals + MLP/CNN
+│   ├── week6/            # Simple CNN + GAN
+│   ├── week7/            # Document parsing
+│   ├── week8/            # Image generation + LLM output control
+│   ├── week9/            # LLM hallucination + Credit decision + Shapley
+│   └── week11/           # Embedding
+│
+├── starter_kits/         # Project starter kits
+│   ├── 1_traditional_generative_ml/
+│   ├── 2_llm_structure_output/
+│   ├── 3_multimodal_reasoning/
+│   ├── 4_cv_models/
+│   └── 5_bias_detection_interpretability/
+│
+├── ccai9012/            # Core utility library
+├── docs/                # Documentation source files
+├── data/                # Example datasets
+└── models/              # Pre-trained models
+```
+
+## Documentation
+
+**[View Complete Documentation Website →](https://ccai9012.github.io/ccai9012/)**
+
+The complete course documentation is now available as a unified website with the following sections:
+
+- **[Home](https://ccai9012.github.io/ccai9012/index.html)** - Course overview and quick start guide
+- **[Installation Guide](https://ccai9012.github.io/ccai9012/installation.html)** - Step-by-step setup instructions
+- **[Starter Kits](https://ccai9012.github.io/ccai9012/starter_kits.html)** - Five project modules with examples and use cases
+- **[Reading Materials](https://ccai9012.github.io/ccai9012/reading_material.html)** - Curated academic papers and resources
+- **[Datasets Reference](https://ccai9012.github.io/ccai9012/datasets.html)** - Comprehensive catalog of 40+ datasets
+- **[API Documentation](https://ccai9012.github.io/ccai9012/api/index.html)** - Complete ccai9012 library reference
+
+## Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ccai9012/ccai9012.git
+cd ccai9012
+```
+
+### 2. Set Up Environment
+
+```bash
+# Create conda environment
+conda env create -f environment.yml
+
+# Activate environment
+conda activate ccai9012
+
+# Install the package
+pip install -e .
+```
+
+### 3. Launch Jupyter Notebook
+
+```bash
+# Add kernel to Jupyter
+python -m ipykernel install --user --name ccai9012 --display-name "ccai9012"
+
+# Start Jupyter
+jupyter notebook
+```
+
+### 4. Test Your Environment
+
+After installation, verify that all required packages are properly installed:
+
+```bash
+# Make sure the ccai9012 environment is activated
+conda activate ccai9012
+
+# Run the test script
+python test_environment.py
+```
+
+### 5. Set up the API tokens
+Please fill in the `ccai9012/token.yaml` with the API token you received from the course staff or your own token.
+
+
+## Support & Feedback
+
+For questions or suggestions:
+1. Submit an issue on our GitHub repository
+2. Email [course_email]
+3. Post in the course forum
+
+## License
+
+[Add license information]
